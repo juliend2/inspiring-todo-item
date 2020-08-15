@@ -53,12 +53,8 @@ quotes = [
 ]
 
 quote = "ERROR: no quote was found for today"
-quotes.each_with_index do |q, i|
-  #puts i + 1
-  if (day_of_month % quotes.size) == i + 1
-    quote = q
-  end
-end
+modulo = day_of_month % quotes.size
+quote = quotes[ modulo ]
 
 @client = Todoist::Client.create_client_by_token(token)
 item = @client.misc_items.add_item("✨  **#{quote}**", priority: P3, date_string: 'tomorrow @ 10am')
