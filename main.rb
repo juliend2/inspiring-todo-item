@@ -13,6 +13,7 @@ rescue
   exit  
 end
 
+# Monkey-patching until [my PR](https://github.com/h6y3/todoist-ruby/pull/12) gets merged:
 module Todoist
   module Misc
     class Items < Todoist::Service
