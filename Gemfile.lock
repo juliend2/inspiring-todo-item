@@ -2,12 +2,15 @@ GEM
   remote: https://rubygems.org/
   specs:
     concurrent-ruby (1.1.7)
+    faraday (1.0.1)
+      multipart-post (>= 1.2, < 3)
     mimemagic (0.3.5)
     multipart-post (2.1.1)
-    todoist-ruby (0.2.4)
-      concurrent-ruby (~> 1.0)
-      mimemagic (~> 0.3)
-      multipart-post (~> 2.0)
+    todoist-ruby (0.2.5)
+      concurrent-ruby (>= 1.0)
+      faraday (>= 1.0)
+      mimemagic (>= 0.3)
+      multipart-post (>= 2.0)
 
 PLATFORMS
   ruby

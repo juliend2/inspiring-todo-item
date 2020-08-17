@@ -13,33 +13,6 @@ rescue
   exit  
 end
 
-# Monkey-patching until [my PR](https://github.com/h6y3/todoist-ruby/pull/12) gets merged:
-module Todoist
-  module Misc
-    class Items < Todoist::Service
-      def add_item(content, optional_params = {})
-        params = {content: content}
-        if optional_params["project"]
-          params["project_id"] = project.id
-          optional_params.delete("project")
-        end
-
-        if optional_params["labels"]
-          labels = optional_params["labels"]
-          labels_param = labels.collect { |label| label.id }
-          params["labels"] = labels_param.to_json
-          optional_params.delete("labels")
-        end
-
-        params.merge!(optional_params)
-        result = @client.api_helper.get_response(Config::TODOIST_ITEMS_ADD_COMMAND, params)
-        item = ParseHelper.make_object(result)
-        return item
-      end
-    end
-  end
-end
-
 day_of_month = Time.now.day
 
 quotes = [
