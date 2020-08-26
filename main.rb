@@ -24,6 +24,8 @@ quotes = [
   "Is there something unnecessary that I do? If so, I need to stop doing it.",
   "Faire une chose à la fois. sur plusieurs années, est mieux que de faire plusieurs choses en même temps. Apprends à dire non à certaines de tes idées.",
   "\"It's better to have a bad plan than no plan\" -- Peter Thiel",
+  "Toujours s'arranger pour être libre financièrement; ça laisse un levier lors de négociations.",
+  "Prends en compte la valeur de ton temps lorsque les divertissements demandent beaucoup de temps. Laisser passer 24h avant décider si tu veux vraiment commencer une nouvelle série télévisée.",
 ]
 
 quote = "ERROR: no quote was found for today"
