@@ -26,6 +26,7 @@ quotes = [
   "\"It's better to have a bad plan than no plan\" -- Peter Thiel",
   "Toujours s'arranger pour être libre financièrement; ça laisse un levier lors de négociations.",
   "Prends en compte la valeur de ton temps lorsque les divertissements demandent beaucoup de temps. Laisser passer 24h avant décider si tu veux vraiment commencer une nouvelle série télévisée.",
+  "\"Are you starting with a big share of a small market?\" -- The Monopoly question, from 'Zero to One', Peter Thiel",
 ]
 
 quote = "ERROR: no quote was found for today"
