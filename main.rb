@@ -20,6 +20,7 @@ quotes = [
   "Le succès n'est pas dans le fait dans l'atteinte d'un but, mais dans le fait d'avoir un système en marche vers ta vision/mission.",
   "Subdiviser les grosses tâches intimidantes en sous-tâches pour contourner la procrastination.",
   "Good enough now is better than perfect too late.",
+  "Optimize your efficiency by accelerating your feedback loops.",
   "_Memento Mori_: Un jour, tu va mourir.",
   "\"Je suis le cep, vous êtes les sarments. Celui qui demeure en moi et en qui je demeure porte beaucoup de fruit, car sans moi vous ne pouvez rien faire.\" -- Jean 15.5",
   "Faire une chose à la fois. sur plusieurs années, est mieux que de faire plusieurs choses en même temps. Apprends à dire non à certaines de tes idées.",
